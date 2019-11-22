@@ -29,3 +29,5 @@ line 14 can be changed and suffixed "-r" to give the ability to recursively scan
 line 14 can be changed to "CMD /home/glasswall/GWQtCLI -i /input -o /output -x export" to produce export packages instead of analysis reports and regenerated files, please note that the streams for the export package are currently only availible in the SISL format.
 
 line 14 can be changed to "CMD /home/glasswall/GWQtCLI -i /input -o /output -x import" to reimport exported archives and produce regenerated files and analysis reports.
+
+This is also availible in a pre built docker image in the following location: https://hub.docker.com/r/mgreengw/glasswall_analyseandregenerate
