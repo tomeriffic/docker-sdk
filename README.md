@@ -3,7 +3,7 @@
 The dockerfile here can be used to build a CentOS7 image containing version 2 of the Glasswall engine which is pre configured to run files in a mounted directory in both analysis and protect modes through the engine and output the files to a mounted output directory.
 
 To use this file simply download the file to a clean workspace and using powershell build your image, if you've never used docker before you will need to install this first.
-The "RunLinux" directory must be inside the same directory as the dockerfile and must contain, the Core 2 libraries, GWQtCLI and the supporting libraries.
+The "RunLinux" directory must be inside the same directory as the dockerfile and must contain, the Core 2 libraries, GWQtCLI and the supporting libraries all of these can be found at https://github.com/filetrust/SDK2.01Evaluation .
 
 To build an image simply use the following command:
 docker build -t *image name*:0.1 .
